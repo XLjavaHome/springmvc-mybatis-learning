@@ -18,7 +18,6 @@ public class JsonTest {
     public
     @ResponseBody
     ItemsCustom requestJson(@RequestBody ItemsCustom itemsCustom) {
-
         //@ResponseBody将itemsCustom转成json输出
         return itemsCustom;
     }
@@ -28,9 +27,7 @@ public class JsonTest {
     public
     @ResponseBody
     ItemsCustom responseJson(ItemsCustom itemsCustom) {
-
         //@ResponseBody将itemsCustom转成json输出
         return itemsCustom;
     }
-
 }

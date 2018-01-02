@@ -10,8 +10,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>json交互测试</title>
-    <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.js"></script>
     <script type="text/javascript">
+        $(function () {
+            alert("11");
+        });
         //请求json，输出是json
         function requestJson() {
 
