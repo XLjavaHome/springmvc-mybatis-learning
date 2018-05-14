@@ -19,6 +19,7 @@ public class JsonTest {
     @ResponseBody
     ItemsCustom requestJson(@RequestBody ItemsCustom itemsCustom) {
         //@ResponseBody将itemsCustom转成json输出
+        System.out.println("111");
         return itemsCustom;
     }
 

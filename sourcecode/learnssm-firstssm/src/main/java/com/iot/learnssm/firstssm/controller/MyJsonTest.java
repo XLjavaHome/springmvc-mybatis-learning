@@ -51,11 +51,9 @@ public class MyJsonTest {
                 this.message = message;
             }
         }
-
         ResponseBody responseBody = new ResponseBody();
         ItemsCustom itemsCustom = itemsService.findItemsById(1);
         responseBody.getResult().put("itemsCustom", itemsCustom);
         return responseBody;
-
     }
 }

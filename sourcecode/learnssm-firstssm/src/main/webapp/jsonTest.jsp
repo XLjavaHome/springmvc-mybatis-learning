@@ -12,12 +12,8 @@
     <title>json交互测试</title>
     <script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery.js"></script>
     <script type="text/javascript">
-        $(function () {
-            alert("11");
-        });
         //请求json，输出是json
         function requestJson() {
-
             $.ajax({
                 type: 'post',
                 url: '${pageContext.request.contextPath }/requestJson.action',
@@ -27,14 +23,10 @@
                 success: function (data) {//返回json结果
                     alert(data);
                 }
-
             });
-
-
         }
         //请求key/value，输出是json
         function responseJson() {
-
             $.ajax({
                 type: 'post',
                 url: '${pageContext.request.contextPath }/responseJson.action',
@@ -45,9 +37,7 @@
                 success: function (data) {//返回json结果
                     alert(data.name);
                 }
-
             });
-
         }
     </script>
 </head>

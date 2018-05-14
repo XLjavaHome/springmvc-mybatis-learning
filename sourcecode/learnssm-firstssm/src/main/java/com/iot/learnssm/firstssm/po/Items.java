@@ -2,9 +2,9 @@ package com.iot.learnssm.firstssm.po;
 
 import com.iot.learnssm.firstssm.controller.converter.validation.ValidGroup1;
 
-import java.util.Date;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Date;
 
 public class Items {
     private Integer id;
@@ -13,15 +13,11 @@ public class Items {
     //groups：此校验属于哪个分组，groups可以定义多个分组
     @Size(min = 1, max = 30, message = "{items.name.length.error}", groups = {ValidGroup1.class})
     private String name;
-
     private Float price;
-
     private String pic;
-
     //非空校验
     @NotNull(message = "{items.createtime.isNUll}")
     private Date createtime;
-
     private String detail;
 
     public Integer getId() {

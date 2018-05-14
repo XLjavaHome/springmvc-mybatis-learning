@@ -2,11 +2,8 @@ package com.iot.learnssm.firstssm.po;
 
 public class Orderdetail {
     private Integer id;
-
     private Integer ordersId;
-
     private Integer itemsId;
-
     private Integer itemsNum;
 
     public Integer getId() {

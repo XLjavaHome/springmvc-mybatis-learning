@@ -4,13 +4,9 @@ import java.util.Date;
 
 public class Orders {
     private Integer id;
-
     private Integer userId;
-
     private String number;
-
     private Date createtime;
-
     private String note;
 
     public Integer getId() {
