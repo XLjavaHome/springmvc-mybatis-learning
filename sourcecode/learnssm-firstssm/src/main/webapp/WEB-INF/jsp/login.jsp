@@ -15,6 +15,7 @@
     用户账号：<input type="text" name="username"/><br/>
     用户密码 ：<input type="password" name="password"/><br/>
     <input type="submit" value="登陆"/>
+    <h3><a href="/jsonTest.jsp">jsonTest.jsp</a></h3>
 </form>
 </body>
 </html>
